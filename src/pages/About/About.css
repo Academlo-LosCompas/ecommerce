@@ -1,13 +1,13 @@
 .about {
-    margin-top: 3rem;
-    min-height: calc(100vh - 5rem);
+  margin-top: 3rem;
+  min-height: calc(100vh - 5rem);
 }
 
 .about__title {
-    font-size: 24px;
-    font-weight: bold;
+  font-size: 24px;
+  font-weight: bold;
 }
 
 .about__description {
-    font-size: 16px;
+  font-size: 16px;
 }

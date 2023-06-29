@@ -34,7 +34,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   background: var(--background-color);
-  color: var( --color-text);
+  color: var(--color-text);
 }
 
 p,
@@ -49,8 +49,8 @@ h6 {
 }
 
 body.darkmode {
-  --background-color:  #1b1b1b;
-  --color-text: #f9f5f6; 
+  --background-color: #1b1b1b;
+  --color-text: #f9f5f6;
 }
 
 ul,

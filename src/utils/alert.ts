@@ -1,6 +1,6 @@
-import Swal from "sweetalert2";
-import { type SweetAlertOptions } from "sweetalert2";
-import { colors } from "./constants";
+import Swal from 'sweetalert2';
+import { type SweetAlertOptions } from 'sweetalert2';
+import { colors } from './constants';
 
 export const alerts = ({
   title,
@@ -9,22 +9,22 @@ export const alerts = ({
   html,
   toast = false,
   showConfirmButton = true,
-  confirmButtonText = "Ok",
+  confirmButtonText = 'Ok',
   showCloseButton = true,
-  confirmButtonAriaLabel = "Thumbs up, great!",
+  confirmButtonAriaLabel = 'Thumbs up, great!',
   timer,
-  width
+  width,
 }: SweetAlertOptions) => {
   // TODO: fix colors.
   let color: string = colors.primary;
   switch (icon) {
-    case "info":
+    case 'info':
       color = colors.secondary;
       break;
-    case "warning":
+    case 'warning':
       color = colors.error;
       break;
-    case "error":
+    case 'error':
       color = colors.error;
       break;
     default:
@@ -47,6 +47,6 @@ export const alerts = ({
     iconColor: color,
     confirmButtonColor: colors.primary,
     cancelButtonColor: colors.light,
-    timer: timer
+    timer: timer,
   });
 };
