@@ -1,0 +1,89 @@
+/* Fuente de Ejemplo */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  /* Colores primarios */
+  --color-primary: #007bff;
+  --color-primary-dark: #0056b3;
+  --color-primary-light: #a6d4ff;
+
+  /* Colores secundarios */
+  --color-secondary: #6c757d;
+  --color-secondary-dark: #495057;
+  --color-secondary-light: #c8d1d7;
+
+  /* Colores de fondo */
+  --color-background: #f2f2f2;
+  --color-background-dark: #333333;
+  --color-background-light: #ffffff;
+
+  /* Colores de texto */
+  --color-text: #333333;
+  --color-text-light: #ffffff;
+
+  /* Otros colores */
+  --color-success: #28a745;
+  --color-warning: #ffc107;
+  --color-error: #dc3545;
+
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: var(--background-color);
+  color: var( --color-text);
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  line-height: 1.5;
+}
+
+body.darkmode {
+  --background-color:  #1b1b1b;
+  --color-text: #f9f5f6; 
+}
+
+ul,
+li {
+  padding: 0;
+  list-style: none;
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* Estilos para el Scroll Bar */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-background);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-background-dark);
+  border-radius: 0.5rem;
+}
